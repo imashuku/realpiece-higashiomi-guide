@@ -3,27 +3,27 @@
 
 export const spotImages = {
   // 観光スポット
-  tarobo: 'https://images.unsplash.com/photo-1624253321171-1be53e12f5f4?w=600&h=400&fit=crop', // 神社の階段
-  sukiyaki: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&h=400&fit=crop', // すき焼き
-  honmachi: 'https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600&h=400&fit=crop', // 商店街
-  taneya: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?w=600&h=400&fit=crop', // バームクーヘン
-  enmeyu: 'https://images.unsplash.com/photo-1540324155974-7523202daa3f?w=600&h=400&fit=crop', // 銭湯
-  fortyniners: 'https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600&h=400&fit=crop', // デニム
-  manzen: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop', // 食堂
-  kitemuseum: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop', // 凧
-  vineria: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&h=400&fit=crop', // ワインバー
-  rio: 'https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=600&h=400&fit=crop', // 居酒屋
-  happu: 'https://images.unsplash.com/photo-1540324155974-7523202daa3f?w=600&h=400&fit=crop', // 温泉
-  hitomi: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=600&h=400&fit=crop', // ワイナリー
-  michinoeki: 'https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=600&h=400&fit=crop', // 道の駅
+  tarobo: 'https://images.unsplash.com/photo-1610379593619-50ff14f0ec44?w=600&h=400&fit=crop', // 日本の神社の石段
+  sukiyaki: 'https://images.unsplash.com/photo-1528736235302-52922df5c122?w=600&h=400&fit=crop', // すき焼き料理
+  honmachi: 'https://images.unsplash.com/photo-1554797589-7241bb691973?w=600&h=400&fit=crop', // 日本の商店街
+  taneya: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop', // ケーキ・バームクーヘン
+  enmeyu: 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=600&h=400&fit=crop', // 日本の銭湯
+  fortyniners: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=400&fit=crop', // デニムジーンズ
+  manzen: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&h=400&fit=crop', // レストラン食堂
+  kitemuseum: 'https://images.unsplash.com/photo-1534570439523-6065e6478c73?w=600&h=400&fit=crop', // 凧
+  vineria: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&h=400&fit=crop', // ワインバー
+  rio: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&h=400&fit=crop', // 日本の居酒屋
+  happu: 'https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=600&h=400&fit=crop', // 日本の温泉
+  hitomi: 'https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?w=600&h=400&fit=crop', // ワイナリー葡萄畑
+  michinoeki: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?w=600&h=400&fit=crop', // 日本の道の駅
   
   // ホテル
-  yokaichiRoyal: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop',
-  abHotel: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=600&h=400&fit=crop',
-  comfortYokaichi: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=400&fit=crop',
-  comfortOmi: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=400&fit=crop',
-  hotelHachiman: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=600&h=400&fit=crop',
-  businessShell: 'https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?w=600&h=400&fit=crop'
+  yokaichiRoyal: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&h=400&fit=crop', // シティホテル
+  abHotel: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600&h=400&fit=crop', // ビジネスホテル
+  comfortYokaichi: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&h=400&fit=crop', // モダンホテル
+  comfortOmi: 'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&h=400&fit=crop', // ビジネスホテル朝食
+  hotelHachiman: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=400&fit=crop', // ホテルルーム
+  businessShell: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&h=400&fit=crop' // ビジネスホテル外観
 };
 
 // プレースホルダー画像のフォールバック
