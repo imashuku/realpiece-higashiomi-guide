@@ -1,11 +1,13 @@
 // 東近江市撮影スポットデータ
+import { spotImages } from './utils/imageUrls';
+
 export const spots = [
   {
     id: 1,
     name: '太郎坊・阿賀神社（太郎坊宮）',
     category: 'performance',
     description: '740段余りの石段チャレンジ！勝運のパワースポット',
-    image: '/api/placeholder/400/250',
+    image: spotImages.tarobo,
     tags: ['チャレンジ', 'パワースポット', '石段'],
     shootingIdeas: [
       'プリティーボーイダンス（石段背景）',
@@ -28,7 +30,7 @@ export const spots = [
     name: 'すき焼き にしむら',
     category: 'gourmet',
     description: '昭和37年創業の老舗！本場近江牛すき焼き',
-    image: '/api/placeholder/400/250',
+    image: spotImages.sukiyaki,
     tags: ['近江牛', 'すき焼き', '老舗'],
     shootingIdeas: [
       '近江牛すき焼き体験（ASMR要素）',
@@ -51,7 +53,7 @@ export const spots = [
     name: 'ほんまち商店街',
     category: 'history',
     description: '昭和初期から続く御代参街道の商店街',
-    image: '/api/placeholder/400/250',
+    image: spotImages.honmachi,
     tags: ['昭和レトロ', 'アーケード', '商店街'],
     shootingIdeas: [
       '昭和レトロダンス動画',
@@ -73,7 +75,7 @@ export const spots = [
     name: 'たねやクラブハリエ八日市の杜',
     category: 'gourmet',
     description: '鎮守の杜に囲まれた洋菓子店、バームクーヘンが名物',
-    image: '/api/placeholder/400/250',
+    image: spotImages.taneya,
     tags: ['バームクーヘン', 'スイーツ', '鎮守の杜'],
     shootingIdeas: [
       'バームクーヘン体験・見学',
@@ -96,7 +98,7 @@ export const spots = [
     name: '延命湯',
     category: 'history',
     description: '昭和7年創業、市内唯一の銭湯、薪で沸かしたお湯',
-    image: '/api/placeholder/400/250',
+    image: spotImages.enmeyu,
     tags: ['銭湯', '昭和レトロ', '薪風呂'],
     shootingIdeas: [
       '銭湯体験動画（外観・足湯のみ）',
@@ -119,7 +121,7 @@ export const spots = [
     name: 'FORTY NINERS',
     category: 'history',
     description: 'デニム・アメカジ・ヴィンテージ専門店',
-    image: '/api/placeholder/400/250',
+    image: spotImages.fortyniners,
     tags: ['ファッション', 'アメカジ', 'ヴィンテージ'],
     shootingIdeas: [
       'ファッション・スタイリング企画',
@@ -142,7 +144,7 @@ export const spots = [
     name: '萬善食堂',
     category: 'gourmet',
     description: '昭和の雰囲気漂う街食堂、リーズナブルな価格',
-    image: '/api/placeholder/400/250',
+    image: spotImages.manzen,
     tags: ['定食', '昭和レトロ', '庶民的'],
     shootingIdeas: [
       '昭和グルメ体験',
@@ -164,7 +166,7 @@ export const spots = [
     name: '世界凧博物館東近江大凧会館',
     category: 'history',
     description: '日本一の100畳サイズ大凧展示、凧作り体験可能',
-    image: '/api/placeholder/400/250',
+    image: spotImages.kitemuseum,
     tags: ['凧', '博物館', '体験'],
     shootingIdeas: [
       '凧作り体験動画',
@@ -189,7 +191,7 @@ export const spots = [
     name: 'Vineria Ueno',
     category: 'gourmet',
     description: '洗練されたイタリアワインバー、白を基調とした空間',
-    image: '/api/placeholder/400/250',
+    image: spotImages.vineria,
     tags: ['ワイン', 'イタリアン', '大人の空間'],
     shootingIdeas: [
       '大人の夜カフェ体験（成人メンバーのみ）',
@@ -211,7 +213,7 @@ export const spots = [
     name: 'リオ',
     category: 'gourmet',
     description: '創業60年の老舗居酒屋、焼き鳥とおでんが名物',
-    image: '/api/placeholder/400/250',
+    image: spotImages.rio,
     tags: ['居酒屋', '焼き鳥', '老舗'],
     shootingIdeas: [
       '老舗居酒屋体験（成人メンバーのみ）',
@@ -233,7 +235,7 @@ export const spots = [
     name: '永源寺温泉 八風の湯',
     category: 'nature',
     description: '愛知川を一望する露天風呂、美肌の湯として有名',
-    image: '/api/placeholder/400/250',
+    image: spotImages.happu,
     tags: ['温泉', '露天風呂', '美肌の湯'],
     shootingIdeas: [
       '温泉リラックス企画（外観・足湯のみ）',
@@ -257,7 +259,7 @@ export const spots = [
     name: 'ヒトミワイナリー',
     category: 'gourmet',
     description: '日本唯一のにごりワイン専門ワイナリー（1991年創業）',
-    image: '/api/placeholder/400/250',
+    image: spotImages.hitomi,
     tags: ['ワイン', 'にごりワイン', '地産地消'],
     shootingIdeas: [
       'ワイン製造見学（成人メンバーのみ試飲）',
@@ -278,7 +280,7 @@ export const spots = [
     name: '道の駅 奥永源寺渓流の里',
     category: 'nature',
     description: '政所茶と木地師のふるさと、鈴鹿の自然',
-    image: '/api/placeholder/400/250',
+    image: spotImages.michinoeki,
     tags: ['政所茶', '木地師', '道の駅'],
     shootingIdeas: [
       '政所茶体験・茶摘み',
@@ -356,7 +358,7 @@ export const hotels = [
     rating: 3,
     recommended: true,
     description: '八日市ICから車で約1分の好立地シティホテル（公式サイト: https://www.y-royal.co.jp/）',
-    image: '/api/placeholder/400/250',
+    image: spotImages.yokaichiRoyal,
     features: ['駐車場150台', '朝食バイキング', '会議室', 'レストラン'],
     practicalInfo: {
       address: '滋賀県東近江市妙法寺町690番地',
@@ -383,7 +385,7 @@ export const hotels = [
     rating: 4,
     recommended: true,
     description: 'JR近江八幡駅から徒歩2分、大浴場完備',
-    image: '/api/placeholder/400/250',
+    image: spotImages.abHotel,
     features: ['大浴場', '駅徒歩2分', '無料朝食', 'コインランドリー'],
     practicalInfo: {
       address: '滋賀県近江八幡市鷹飼町',
@@ -408,7 +410,7 @@ export const hotels = [
     rating: 3,
     recommended: false,
     description: '八日市ICから車で約1分、全室禁煙のビジネスホテルチェーン',
-    image: '/api/placeholder/400/250',
+    image: spotImages.comfortYokaichi,
     features: ['焼き立てパン朝食', 'オリジナル寝具', '全室禁煙'],
     practicalInfo: {
       address: '滋賀県東近江市中小路町495-1',
@@ -433,7 +435,7 @@ export const hotels = [
     rating: 3,
     recommended: false,
     description: 'JR近江八幡駅北口から徒歩約2分',
-    image: '/api/placeholder/400/250',
+    image: spotImages.comfortOmi,
     features: ['駅徒歩2分', '焼き立てパン朝食', '駐車場44台'],
     practicalInfo: {
       address: '滋賀県近江八幡市鷹飼町514-1',
@@ -457,7 +459,7 @@ export const hotels = [
     rating: 3,
     recommended: false,
     description: '全室バス・トイレセパレート、6タイプの客室',
-    image: '/api/placeholder/400/250',
+    image: spotImages.hotelHachiman,
     features: ['バス・トイレ別', '6タイプ客室', '静かな環境'],
     practicalInfo: {
       address: '滋賀県近江八幡市桜宮町285',
@@ -483,7 +485,7 @@ export const hotels = [
     rating: 2,
     recommended: false,
     description: '国道8号線沿い、大型車駐車可能',
-    image: '/api/placeholder/400/250',
+    image: spotImages.businessShell,
     features: ['大型車対応', '無料駐車場', 'リーズナブル'],
     practicalInfo: {
       address: '滋賀県近江八幡市友定町494-1',
