@@ -2,23 +2,24 @@
 export const spots = [
   {
     id: 1,
-    name: '太郎坊宮（阿賀神社）',
+    name: '太郎坊・阿賀神社（太郎坊宮）',
     category: 'performance',
-    description: '379段の石段チャレンジ！勝運のパワースポット',
+    description: '740段余りの石段チャレンジ！勝運のパワースポット',
     image: '/api/placeholder/400/250',
     tags: ['チャレンジ', 'パワースポット', '石段'],
     shootingIdeas: [
       'プリティーボーイダンス（石段背景）',
-      '379段チャレンジ企画',
+      '740段チャレンジ企画',
       'パワースポット体験動画',
       '夫婦岩通り抜け挑戦'
     ],
     practicalInfo: {
       access: '八日市ICから車で15分',
       parking: '無料駐車場あり',
-      time: '24時間参拝可能',
+      time: 'お守り作り体験 9:00-16:00',
       permission: '撮影許可要相談',
-      address: '東近江市小脇町'
+      phone: '0748-23-1341',
+      address: '〒527-0091 滋賀県東近江市小脇町2247'
     },
     featured: true
   },
@@ -36,11 +37,12 @@ export const spots = [
       '近江牛の調理過程撮影'
     ],
     practicalInfo: {
-      access: '太郎坊宮から徒歩5分',
+      access: '太郎坊宮前駅から徒歩15分（1.2km）',
       parking: '店舗駐車場あり',
-      time: '11:30-14:00, 17:00-21:00',
+      time: '11:30-14:00, 17:00-20:30（〜21:30）',
       permission: '事前連絡で撮影協力可能',
-      phone: '0748-22-3010'
+      phone: '要電話予約（前日まで）',
+      address: '〒527-0013 滋賀県東近江市東中野町2-22'
     },
     featured: true
   },
@@ -61,7 +63,9 @@ export const spots = [
       access: '近江鉄道八日市駅から徒歩4分',
       parking: '周辺有料駐車場利用',
       time: '店舗により異なる',
-      permission: '商店街組合に要相談'
+      permission: '商店街組合に要相談',
+      phone: '0748-23-4528',
+      website: 'https://www.honmachistreet.com/'
     }
   },
   {
@@ -80,9 +84,10 @@ export const spots = [
     practicalInfo: {
       access: '東近江警察署から約200m',
       parking: '店舗駐車場あり',
-      time: '店舗・カフェ営業時間要確認',
+      time: '店舗 9:00-18:00、カフェ 10:00-18:00（L.O.17:00）',
       permission: '店舗に要相談',
-      address: '東近江市八日市緑町38-15'
+      address: '〒527-0014 滋賀県東近江市八日市緑町38-15',
+      phone: '0748-22-7777'
     },
     featured: true
   },
@@ -103,7 +108,10 @@ export const spots = [
       access: '八日市駅から徒歩圏内',
       parking: '要確認',
       time: '17:00-22:30（最終23:00）',
-      permission: '事前連絡必須'
+      permission: '事前連絡必須',
+      phone: '0748-22-1002',
+      address: '〒527-0012 滋賀県東近江市八日市本町11-9',
+      closed: '毎月3,8,13,18,23,28日'
     }
   },
   {
@@ -122,9 +130,11 @@ export const spots = [
     practicalInfo: {
       access: '近江鉄道八日市駅より徒歩5分',
       parking: '要確認',
-      time: '営業時間要確認',
+      time: '11:00-20:00（水曜定休）',
       permission: '店舗に要相談',
-      address: '東近江市八日市本町14-25'
+      phone: '0748-23-4762',
+      address: '東近江市八日市本町14-25',
+      website: 'https://www.fortyniners.cc/'
     }
   },
   {
@@ -145,6 +155,7 @@ export const spots = [
       parking: '要確認',
       time: '11:30-15:00, 17:00-19:00（日曜定休）',
       permission: '店舗に要相談',
+      phone: '0748-22-0197',
       address: '東近江市八日市金屋1丁目3-21'
     }
   },
@@ -164,9 +175,13 @@ export const spots = [
     practicalInfo: {
       access: '八日市駅から徒歩圏内',
       parking: '駐車場あり',
-      time: '9:00-17:00（水曜定休）',
+      time: '9:00-17:00（入館16:30まで）',
       permission: '館内撮影は要相談',
-      address: '東近江市八日市東本町3-5'
+      phone: '0748-23-0081',
+      address: '〒527-0025 滋賀県東近江市八日市東本町3番5号',
+      website: 'https://oodako.net/',
+      closed: '水曜日、第4火曜日、祝日の翌日',
+      admission: '大人300円、学生150円'
     }
   },
   {
@@ -185,9 +200,10 @@ export const spots = [
     practicalInfo: {
       access: '近江鉄道八日市駅から徒歩4分',
       parking: '要確認',
-      time: '17:00-24:00',
+      time: '月-木17:00-24:00、金土15:00-24:00（日曜定休）',
       permission: '事前連絡推奨',
-      address: '東近江市八日市本町'
+      phone: '050-5801-0858',
+      address: '東近江市八日市本町9番19号'
     }
   },
   {
@@ -206,8 +222,9 @@ export const spots = [
     practicalInfo: {
       access: '八日市駅から徒歩圏内',
       parking: '要確認',
-      time: '17:00-24:00（L.O. 23:00、日曜定休）',
+      time: '17:00-24:00（月-土、日曜定休）',
       permission: '事前連絡推奨',
+      phone: '0748-23-2025',
       address: '東近江市八日市本町10-7'
     }
   },
@@ -227,16 +244,19 @@ export const spots = [
     practicalInfo: {
       access: '八日市ICから車で約25分',
       parking: '駐車場完備',
-      time: '営業時間要確認',
+      time: '10:00-22:00（最終入館21:00）',
       permission: '施設に要相談',
-      address: '東近江市永源寺高野町352'
+      phone: '0748-27-1126',
+      address: '〒527-0212 滋賀県東近江市永源寺高野町352',
+      website: 'https://www.happuno-yu.com/eigenji/',
+      admission: '平日：大人1,300円、小人700円　土日祝：大人1,500円、小人800円'
     }
   },
   {
     id: 12,
     name: 'ヒトミワイナリー',
     category: 'gourmet',
-    description: 'にごりワイン専門、国産生葡萄100%使用',
+    description: '日本唯一のにごりワイン専門ワイナリー（1991年創業）',
     image: '/api/placeholder/400/250',
     tags: ['ワイン', 'にごりワイン', '地産地消'],
     shootingIdeas: [
@@ -246,10 +266,11 @@ export const spots = [
       'ワイン文化の紹介'
     ],
     practicalInfo: {
-      access: '永源寺方面',
-      parking: '要確認',
-      time: '営業時間要確認',
-      permission: '事前連絡必須'
+      access: '東近江市山上町',
+      parking: 'あり',
+      time: '10:00-18:00（年末年始のみ休業）',
+      permission: '事前連絡必須',
+      website: 'http://www.nigoriwine.jp/'
     }
   },
   {
@@ -268,9 +289,12 @@ export const spots = [
     practicalInfo: {
       access: '八日市ICから国道421号を東に約25分',
       parking: '駐車場完備',
-      time: '9:00-17:00',
+      time: '9:00-17:30（12-3月は16:30まで）',
       permission: '施設に要相談',
-      address: '東近江市蓼畑町510番地'
+      phone: '0748-29-0428',
+      address: '〒527-0207 滋賀県東近江市蓼畑町510',
+      website: 'https://okueigenji-keiryunosato.com/',
+      closed: '火曜日（祝日の場合は翌日）、12/29-1/3'
     }
   }
 ];
@@ -304,7 +328,7 @@ export const videoPlans = [
   },
   {
     id: 2,
-    title: '動画2: チャレンジ編「太郎坊宮379段石段ダッシュに挑戦！」',
+    title: '動画2: チャレンジ編「太郎坊宮740段石段ダッシュに挑戦！」',
     duration: '20-25分',
     spots: [
       '太郎坊宮（メイン）',
@@ -312,7 +336,7 @@ export const videoPlans = [
       '永源寺方面 or 近江八幡方面'
     ],
     highlights: [
-      '379段石段チャレンジ',
+      '740段石段チャレンジ',
       'パワースポット体験',
       '伝統文化との触れ合い',
       '東近江市の自然美'
@@ -331,16 +355,18 @@ export const hotels = [
     category: 'city_hotel',
     rating: 3,
     recommended: true,
-    description: '八日市ICから車で約1分の好立地シティホテル',
+    description: '八日市ICから車で約1分の好立地シティホテル（公式サイト: https://www.y-royal.co.jp/）',
     image: '/api/placeholder/400/250',
     features: ['駐車場150台', '朝食バイキング', '会議室', 'レストラン'],
     practicalInfo: {
       address: '滋賀県東近江市妙法寺町690番地',
       phone: '0748-24-0111',
+      website: 'https://www.y-royal.co.jp/',
       access: '名神高速道路八日市ICより車で1分',
       rooms: '80室',
       parking: '150台（無料）',
-      breakfast: '30種類の和洋朝食バイキング'
+      breakfast: '和洋朝食バイキング',
+      website: 'https://www.y-royal.co.jp/'
     },
     advantages: [
       '太郎坊宮まで車で15分の好立地',
@@ -362,6 +388,7 @@ export const hotels = [
     practicalInfo: {
       address: '滋賀県近江八幡市鷹飼町',
       access: 'JR琵琶湖線「近江八幡駅」より徒歩2分',
+      website: 'https://www.ab-hotel.jp/ohmi/',
       rooms: '126室',
       parking: '有料駐車場',
       breakfast: '無料朝食'
@@ -380,13 +407,17 @@ export const hotels = [
     category: 'business_hotel',
     rating: 3,
     recommended: false,
-    description: '八日市ICから車で約1分、ビジネスホテルチェーン',
+    description: '八日市ICから車で約1分、全室禁煙のビジネスホテルチェーン',
     image: '/api/placeholder/400/250',
     features: ['焼き立てパン朝食', 'オリジナル寝具', '全室禁煙'],
     practicalInfo: {
       address: '滋賀県東近江市中小路町495-1',
       access: '八日市ICから車で約1分',
-      breakfast: '焼き立てパンの無料朝食'
+      breakfast: '焼き立てパンの無料朝食',
+      parking: '40台（無料）',
+      checkin: '15:00-24:00',
+      checkout: '10:00',
+      website: 'https://www.choice-hotels.jp/inn/yokaichi/'
     },
     advantages: [
       '安定したサービス品質',
@@ -408,7 +439,9 @@ export const hotels = [
       address: '滋賀県近江八幡市鷹飼町514-1',
       phone: '0748-36-0001',
       access: 'JR近江八幡駅北口より徒歩約2分',
-      parking: '44台（無料）'
+      parking: '無料駐車場あり',
+      rooms: '116室（全室禁煙）',
+      website: 'https://www.choice-hotels.jp/inn/omihachiman/'
     },
     advantages: [
       '駅至近でアクセス便利',
@@ -428,8 +461,13 @@ export const hotels = [
     features: ['バス・トイレ別', '6タイプ客室', '静かな環境'],
     practicalInfo: {
       address: '滋賀県近江八幡市桜宮町285',
+      phone: '0748-33-1771',
       access: 'JR近江八幡駅北口から徒歩5分',
-      price: '1名様素泊まり7,500円～'
+      price: '1名様素泊まり7,500円～',
+      website: 'https://www.hotel-hachiman.com/',
+      parking: '45台（無料）',
+      checkin: '16:00',
+      checkout: '10:00'
     },
     advantages: [
       'バス・トイレ別でリラックス',
@@ -450,7 +488,7 @@ export const hotels = [
     practicalInfo: {
       address: '滋賀県近江八幡市友定町494-1',
       phone: '0748-37-8451',
-      access: '竜王ICから約15分',
+      access: '国道421号て8号の交差点、竜王ICから約15分',
       rooms: '22室',
       parking: '22台（10t車まで対応）'
     },
